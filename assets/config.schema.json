@@ -1,0 +1,24 @@
+{
+  "description": "Anything that you would like to make configurable to the bot owner would go in this file.\nBotpress handles itself loading the configuration files.\n\nBot configuration files will override Global configuration when available:\nFor example, `data/bots/MY_BOT/config/starter-module.json` will be used by MY_BOT, while `data/global/config/starter-module.json` will be used for all others",
+  "type": "object",
+  "properties": {
+    "someEndpoint": {
+      "default": "https://botpress.com",
+      "type": "string"
+    },
+    "maxMessages": {
+      "default": 10,
+      "type": "number"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "maxMessages",
+    "someEndpoint"
+  ],
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
+
