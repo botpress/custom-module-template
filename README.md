@@ -8,15 +8,16 @@ This Github template is a great starting point for adding functionality to Botpr
 
 1. Click "Use this template" at the top of the Github repo or fork this repo.
 2. Make your changes in the code. See [How do I do XYZ?](#how-do-i-do-xyz?)
-3. Build using ``npm docker build``. The build will be named "YOUR_PACKAGE_NAME.tgz" and be located in the root folder.
-4. Open Botpress.
-5. Go to the modules page.
-6. Click Upload Modules. Select and submit the tgz file.
-7. Click "Restart Server Now"
-8. In the modules page, click unpack now next to your module's name.
-9. Go back up to the list of Stable modules, and activate it by clicking the toggle next to the module's name.
-10. Start editing a chatbot. notice the flag icon for the custom module.
-11. When you change your code, delete the module, then restart from from step 7.
+3. To rename the package, change the folder name, the name field in [src/backend/index.ts](src/backend/index.ts) and the name field in [src/backend/index.ts](src/backend/index.ts)
+4. Build using ``npm docker build``. The build will be named "YOUR_PACKAGE_NAME.tgz" and be located in the root folder.
+5. Open Botpress.
+6. Go to the modules page.
+7. Click Upload Modules. Select and submit the tgz file. ![](1.png)
+8. Click "Restart Server Now" ![](2.png)
+9. In the modules page, click unpack now next to your module's name. ![](3.png)
+10. Go back up to the list of Stable modules, and activate it by clicking the toggle next to the module's name. ![](4.png)
+11. Start editing a chatbot. notice the flag icon for the custom module.
+12. When you change your code, restart from from step 7.
 
 
 ## (Advanced) Where's Hot Reload?
