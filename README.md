@@ -1,6 +1,8 @@
-## Overview
 
-This Botpress Custom Module template is a great starting point for adding functionality to Botpress. You can find a non-exhaustive use case list [here](#how-do-i-do-xyz?).
+![Botpress Custom Module Template](readme-banner.png)
+
+
+This Github template is a great starting point for adding functionality to Botpress. You can find a non-exhaustive use case list [here](#how-do-i-do-xyz?) and lots of references.
 
 ## Quick Start 
 
