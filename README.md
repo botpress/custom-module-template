@@ -10,7 +10,7 @@ This Github template is meant as the starting point for building Botpress Custom
 1. Click "Use this template" at the top of the Github repo or fork this repo.
 2. Make your changes in the code. See [How do I do XYZ?](#how-do-i-do-xyz?)
 3. To rename the package, change the folder name, the name field in [src/backend/index.ts](src/backend/index.ts) and the name field in [src/backend/index.ts](src/backend/index.ts)
-4. Build using ``npm docker build``. The build will be named "YOUR_PACKAGE_NAME.tgz" and be located in the root folder.
+4. Build using ``npm run dockerBuild``. The build will be named "YOUR_PACKAGE_NAME.tgz" and be located in the root folder.
 5. Open Botpress.
 6. Go to the modules page.
 7. Click Upload Modules. Select and submit the tgz file. ![](1.png)
